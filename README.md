@@ -1,2 +1,2 @@
 #### Portfolio Web
-[View project](https://lordshenk.github.io/portfolio-web/)
+[View Project](https://lordshenk.github.io/portfolio-web/)
