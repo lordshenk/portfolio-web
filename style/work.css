@@ -50,19 +50,40 @@ a {
     margin-right: 2rem;
     font-size: 1.3rem;
     font-weight: 500; }
-    .header-section a:nth-child(2) {
-      color: #ff6464; }
     .header-section a:last-child {
       margin-right: 3.75rem; }
   .header-section .menu-btn,
   .header-section .menu-expand {
     display: none; }
 
+.footer-section {
+  padding: 3.1rem 9.25rem 3.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .footer-section .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 1.6rem; }
+    .footer-section .social img:not(img:last-child) {
+      margin-right: 2.1rem; }
+  .footer-section .coppyright-text {
+    color: #21243d;
+    font-size: 0.8rem; }
+
 .work-section {
   padding: 10rem 14rem 0; }
   .work-section .title-text {
     font-weight: 900;
-    color: #21243D;
+    color: #21243d;
     font-size: 2.75rem;
     line-height: 3.75rem;
     margin-bottom: 1.56rem; }
@@ -78,9 +99,11 @@ a {
       width: 15.3rem;
       height: 11.2rem;
       border-radius: 6px;
-      margin-right: 1rem; }
+      margin-right: 1rem;
+      -o-object-fit: cover;
+         object-fit: cover; }
     .work-section .works .work-detail .text .primary-text {
-      color: #21243D;
+      color: #21243d;
       font-weight: 700;
       font-size: 1.87rem;
       margin-bottom: 0.75rem; }
@@ -114,31 +137,8 @@ a {
         color: #8695a4;
         font-size: 1.25rem; }
     .work-section .works .work-detail .text .secondary-text {
-      color: #21243D;
+      color: #21243d;
       font-size: 1rem; }
-
-.footer-section {
-  padding: 3.1rem 9.25rem 3.3rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-  .footer-section .social {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-bottom: 1.6rem; }
-    .footer-section .social img:not(img:last-child) {
-      margin-right: 2.1rem; }
-  .footer-section .coppyright-text {
-    color: #21243D;
-    font-size: 0.8rem; }
 
 @media (max-width: 1200px) {
   .work-section {

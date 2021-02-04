@@ -56,6 +56,13 @@ a {
   .header-section .menu-expand {
     display: none; }
 
+.work-detail,
+.post-detail {
+  cursor: pointer; }
+  .work-detail img,
+  .post-detail img {
+    background: #aaa; }
+
 .footer-section {
   padding: 3.1rem 9.25rem 3.3rem;
   display: -webkit-box;
@@ -79,50 +86,57 @@ a {
     color: #21243d;
     font-size: 0.8rem; }
 
-.blog-section {
-  padding: 10rem 14rem 0; }
-  .blog-section .title-text {
-    font-weight: 900;
+.article-section {
+  padding: 9.25rem 14.6rem 2rem; }
+  .article-section .title-text {
+    font-size: 2.1rem;
     color: #21243d;
-    font-size: 2.75rem;
-    line-height: 3.75rem;
-    margin-bottom: 1.56rem; }
-  .blog-section .blogs .blog-detail {
-    padding: 2rem 0;
-    border-bottom: 1px solid #e0e0e0; }
-    .blog-section .blogs .blog-detail:first-child {
-      padding-top: 0; }
-    .blog-section .blogs .blog-detail .text .primary-text {
-      color: #21243d;
-      font-weight: 700;
-      font-size: 1.87rem;
-      margin-bottom: 0.75rem; }
-    .blog-section .blogs .blog-detail .text .time-tag {
+    margin-bottom: 1.8rem;
+    font-weight: 700; }
+  .article-section .time-tag {
+    margin-bottom: 1.8rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .article-section .time-tag .time {
+      font-size: 1.1rem;
+      width: 3.8rem;
+      height: 1.5rem;
+      border-radius: 1rem;
+      background: #ff7c7c;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center;
-      color: #21243d;
-      font-size: 1.12rem;
-      height: 2.12rem;
-      margin-bottom: 0.75rem; }
-      .blog-section .blogs .blog-detail .text .time-tag .time {
-        border-right: 1px solid #21243d;
-        padding-right: 1.5rem; }
-      .blog-section .blogs .blog-detail .text .time-tag .tag {
-        padding-left: 1.5rem; }
-    .blog-section .blogs .blog-detail .text .secondary-text {
-      color: #21243d;
-      font-size: 1rem; }
+      margin-right: 1rem;
+      color: #fff; }
+    .article-section .time-tag .tag {
+      font-size: 1.1rem;
+      color: #21243d; }
+  .article-section .primary-heading {
+    font-size: 1.8rem;
+    margin: 3rem 0 1rem;
+    font-weight: 500; }
+  .article-section .secondary-heading {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 2rem; }
+  .article-section .secondary-text {
+    font-weight: 400;
+    font-size: 1rem; }
+  .article-section .article-image {
+    width: 100%;
+    height: auto;
+    margin: 2rem 0;
+    background: #aaa;
+    -o-object-fit: cover;
+       object-fit: cover; }
 
-@media (max-width: 1200px) {
-  .blog-section {
-    padding: 7rem 4rem 2rem; } }
-@media (max-width: 992px) {
-  .blog-section {
-    padding: 7rem 2rem 2rem; } }
 @media (max-width: 576px) {
   .header-section {
     padding: 0;
@@ -175,16 +189,14 @@ a {
         font-size: 1rem;
         display: none; }
 
-  .blog-section {
-    padding: 4.6rem 0.75rem 2.4rem; }
-    .blog-section .title-text {
-      font-size: 1.87rem;
-      line-height: 3.75rem; }
-    .blog-section .blogs .blog-detail .text .primary-text {
-      font-size: 1.4rem; }
-    .blog-section .blogs .blog-detail .text .time-tag .time,
-    .blog-section .blogs .blog-detail .text .time-tag .tag {
-      font-size: 1rem; }
+  .article-section {
+    padding: 7rem 1.1rem 2rem; }
+    .article-section .title-text {
+      font-size: 1.8rem; }
+    .article-section .primary-heading {
+      font-size: 1.6rem; }
+    .article-section .secondary-heading {
+      font-size: 1.25rem; }
 
   .footer-section {
     padding: 0 3.4rem; } }

@@ -50,13 +50,38 @@ a {
     margin-right: 2rem;
     font-size: 1.3rem;
     font-weight: 500; }
-    .header-section a:first-child {
-      color: #ff6464; }
     .header-section a:last-child {
       margin-right: 3.75rem; }
   .header-section .menu-btn,
   .header-section .menu-expand {
     display: none; }
+
+.work-detail,
+.post-detail {
+  cursor: pointer; }
+
+.footer-section {
+  padding: 3.1rem 9.25rem 3.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .footer-section .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 1.6rem; }
+    .footer-section .social img:not(img:last-child) {
+      margin-right: 2.1rem; }
+  .footer-section .coppyright-text {
+    color: #21243d;
+    font-size: 0.8rem; }
 
 .intro-section {
   padding: 13rem 9.25rem 4.3rem;
@@ -70,12 +95,12 @@ a {
     max-width: 31.5rem;
     margin-right: 4rem; }
     .intro-section .text .primary-text {
-      color: #21243D;
+      color: #21243d;
       font-weight: 700;
       font-size: 2.75rem;
       margin-bottom: 2.5rem; }
     .intro-section .text .secondary-text {
-      color: #21243D;
+      color: #21243d;
       font-weight: 400;
       font-size: 1rem;
       margin-bottom: 2.5rem; }
@@ -95,7 +120,7 @@ a {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      background: #FF6464;
+      background: #ff6464;
       border-radius: 2px; }
   .intro-section .avatar {
     width: 15rem;
@@ -132,7 +157,7 @@ a {
       line-height: 3.75rem;
       font-size: 1.37rem;
       font-weight: 400;
-      color: #21243D; }
+      color: #21243d; }
     .recent-post-section .header p:last-child {
       cursor: pointer;
       margin-left: auto;
@@ -154,7 +179,7 @@ a {
       .recent-post-section .posts .post-detail:first-child {
         margin-right: 1.25rem; }
       .recent-post-section .posts .post-detail .primary-text {
-        color: #21243D;
+        color: #21243d;
         margin-bottom: 1rem;
         font-size: 1.62rem;
         font-weight: 700; }
@@ -165,12 +190,12 @@ a {
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
-        color: #21243D;
+        color: #21243d;
         font-size: 1.12rem;
         height: 2.12rem;
         margin-bottom: 0.75rem; }
         .recent-post-section .posts .post-detail .time-tag .time {
-          border-right: 1px solid #21243D;
+          border-right: 1px solid #21243d;
           padding-right: 1.5rem; }
         .recent-post-section .posts .post-detail .time-tag .tag {
           padding-left: 1.5rem; }
@@ -181,7 +206,7 @@ a {
     line-height: 3.75rem;
     font-size: 1.37rem;
     font-weight: 400;
-    color: #21243D;
+    color: #21243d;
     margin-top: 1rem;
     margin-bottom: 1.37rem; }
   .feature-work-section .works .work-detail {
@@ -198,7 +223,7 @@ a {
       border-radius: 6px;
       margin-right: 1rem; }
     .feature-work-section .works .work-detail .text .primary-text {
-      color: #21243D;
+      color: #21243d;
       font-weight: 700;
       font-size: 2.75rem;
       margin-bottom: 0.75rem; }
@@ -232,31 +257,8 @@ a {
         color: #8695a4;
         font-size: 1.25rem; }
     .feature-work-section .works .work-detail .text .secondary-text {
-      color: #21243D;
+      color: #21243d;
       font-size: 1rem; }
-
-.footer-section {
-  padding: 3.1rem 9.25rem 3.3rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-  .footer-section .social {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-bottom: 1.6rem; }
-    .footer-section .social img:not(img:last-child) {
-      margin-right: 2.1rem; }
-  .footer-section .coppyright-text {
-    color: #21243D;
-    font-size: 0.8rem; }
 
 @media (max-width: 1200px) {
   .intro-section {
